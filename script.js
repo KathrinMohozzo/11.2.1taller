@@ -10,6 +10,9 @@ document.getElementById('btnsubmit').addEventListener('click', () => {
         fechaDeNacimiento: fechaDeNac //no esta en el endpoint igual
     };
 
+        console.log(data);
+
+
     fetch('https://jsonplaceholder.typicode.com/users', {
         method: 'POST',
         headers: {
