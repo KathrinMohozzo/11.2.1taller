@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller 11.2.1</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
+<title>Taller 11.2.1</title>
+
 </head>
 <body>
 
 <form  method="post">
-    <ul>
+    <ul style="list-style: none">
 
 <li>
 
         <label>Nombre:</label>
-        <input type="text" id="name" required>
+        <input type="text" id="name" class="intp" required placeholder="Escriba su nombre..." style="margin-top: 2rem;">
 </li>
 <br>
 <li>
         <label>Apellido:</label>
-        <input type="text" id="surname" required>
+        <input type="text" id="surname" required class="intp" placeholder="Escriba su apellido...">
 </li>
 <br>
 <li>
         <label>Fecha de nacimiento:</label>
-        <input type="date" id="date" required>
+        <input type="date" id="date" required class="intp">
 </li>
 </ul>
-<button id="btnsubmit">Enviar</button>
+<button id="btnsubmit" style="margin: 2rem">Enviar</button>
 </form>  
 <script src="index.html"></script>    
 </body>
